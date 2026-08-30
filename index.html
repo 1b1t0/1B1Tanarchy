@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1B1T ANARCHY - Minecraft Anarchy Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <img src="images/logo.png" alt="1B1T Logo" class="logo">
+                <span>1B1T ANARCHY</span>
+            </div>
+
+            <div class="nav-right">
+                <a href="https://1b1t0.github.io/1b1tshop/" class="shop-nav-btn">1B1T Shop</a>
+
+                <div class="ip-box" onclick="copyIP()">
+                    <span>IP: <strong id="server-ip">1B1T.enderman.cloud</strong></span>
+                    <button class="copy-btn">Copy IP</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="card">
+            <h2>About The Server</h2>
+            <p>Welcome to <strong>1B1T ANARCHY</strong>, a raw, uncompromising Minecraft anarchy experience built on version <strong>1.12.2</strong>. There are absolutely <strong>no rules, no staff interference, and no boundaries</strong>. What you do in this world is entirely up to you. Survive, build, exploit, or destroy—history is written by the survivors.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>⚔️ PvP & Raiding</h3>
+                <p>Combat is unrestricted. Attack anyone, raid any base, and take what is yours.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔥 Griefing Allowed</h3>
+                <p>Nothing is permanent unless you can defend it. Total structural destruction is part of the game.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🌍 Large World & No Resets</h3>
+                <p>The map will never be reset. Explore a massive, ever-evolving landscape bearing the scars of players past.</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚡ No Limits</h3>
+                <p>No land claims, no teleports, and no artificial restrictions holding you back.</p>
+            </div>
+        </section>
+
+        <section class="card specs-card">
+            <h2>Server Specifications</h2>
+            <ul>
+                <li><strong>Version:</strong> 1.12.2</li>
+                <li><strong>Server IP:</strong> 1B1T.enderman.cloud</li>
+                <li><strong>Owner:</strong> Lyzion13</li>
+                <li><strong>Support Email:</strong> <a href="mailto:1b1tanarchy@proton.me">1b1tanarchy@proton.me</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 1B1T ANARCHY. Managed by Lyzion13. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function copyIP() {
+            navigator.clipboard.writeText("1B1T.enderman.cloud");
+            alert("Server IP copied to clipboard: 1B1T.enderman.cloud");
+        }
+    </script>
+</body>
+</html>
